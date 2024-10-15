@@ -34,6 +34,8 @@ h1{
     box-shadow: 0 0 1rem rgba(0,0,0,0.1);
     font-size: 7vmin;
     color: #b0413e;
+    background-color: white;
+    border: none;
 }
 #reset{
     padding: 1rem;
