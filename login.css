@@ -1,0 +1,83 @@
+body{
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+}
+.box-area{
+    width: 1200px;
+}
+.text1{
+    font-weight: 700;
+}
+.text2{
+    width: 17rem;
+}
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+::placeholder{
+    font-size: 16px
+}
+.text11{
+    color: rgb(36, 174, 228);
+  }
+  .textt{
+    font-weight: 600;
+  }
+  .texthome{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .textnav1{
+    font-size: 30px;
+  }
+.textnav2{
+    color: #ff651c;
+    font-weight: 700;
+}
+.hometext{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ff651c;
+}
+.hometext:active{
+    color: #ff651c;
+}
+.hometext:hover{
+    color: #ff651c;
+}
+.loginform{
+    background-color: #000000;
+    border: 2px solid #ff651c;
+    border-radius: 50px;
+    padding: 15vh;
+    transition: 1s ease-in-out;
+}
+.loginform:hover{
+    background-color: #131313;
+    box-shadow: 15px 15px 40px #ff651c;
+}
+.areamessage{
+    height: 12vh;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    .box-area{
+        margin: 0 10px;
+    }
+    .left-box{
+        height: 100px;
+        overflow: hidden;
+    }
+    .right-box{
+        padding: 20px;
+    }
+}
