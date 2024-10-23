@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  @media screen and (max-width: 2000px){
+  #wrapper {
+    width: 500px;
+    height: 50%;
+    overflow: hidden;
+    border: 0px solid #000;
+    margin: 50px auto;
+    padding: 10px;
+  }
+  
+  .main-content {
+    width: 32vh;
+    height: 50vh;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    padding: 40px 50px;
+    border: 0.5px solid rgb(219, 219, 219);
+  }
+  
+  .header {
+    border: 0px solid #000;
+    margin-bottom: 5px;
+    margin-top: 12vh;
+  }
+  
+  .header img {
+    height: 10vh;
+    position: relative;
+    bottom: 10vh;
+    left: 2vh;
+  }
+  .input-1,
+  .input-2 {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    /* border: 1px solid #dfdfdf;  */
+    background-color: #f5f2f2;
+    box-sizing: border-box;
+    border-radius: 1px;
+    position: relative;
+    bottom: 7vh;
+  }
+  .overlap-text {
+    position: relative;
+  }
+  
+  .overlap-text a {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #003569;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Overpass Mono', monospace;
+    letter-spacing: -1px;
+  }
+  
+  .btn {
+    width: 100%;
+    height: 4vh;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    padding: 5px 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    bottom: 6vh;
+  }
+  
+  .sub-content {
+    width: 32vh;
+    height: 40%;
+    margin: 10px auto;
+    border: 1px solid #e6e6e6;
+    padding: 20px 50px;
+    background-color: #fff;
+    border: 0.5px solid rgb(219, 219, 219);
+  }
+  
+  .s-part {
+    text-align: center;
+    letter-spacing: -2px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+
+  }
+  
+  .s-part a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3897f0;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-left: 5px;
+  }
+  hr{
+    background-color: #bcbcbc;
+  }
+  .facbook a{
+    text-decoration: none;
+    color: rgb(49, 49, 142);
+    font-size: 14px;
+    position: relative;
+    top: 3vh;
+    left: 6vh;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+  }
+  .forgot a{
+    text-decoration: none;
+    position: relative;
+    top: 5vh;
+    left: 8vh;
+    font-size: 13px;
+  }
+}
+
+
+                      /* RESPONSIVENESS */
+
+  @media screen and (max-width: 900px){
+    
+
+  body{
+    font-family: sans-serif;
+    }
+
+
+  #wrapper {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+  .main-content {
+    width: 32vh;
+    height: 50vh;
+    margin: 10px auto;
+    padding: 40px 50px;
+  }
+
+  .header {
+    border: 0px solid #000;
+    margin-bottom: 5px;
+    margin-top: 12vh;
+  }
+  
+  .header img {
+    height: 13vh;
+    position: relative;
+    bottom: 10vh;
+    right: 3vh;
+  }
+  .input-1,
+  .input-2 {
+    width: 40vh;
+    margin-bottom: 12px;
+    padding: 13px 12px;
+    border: 1px solid #dfdfdf;
+    background-color: #f5f2f2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    right: 5vh;
+    bottom: 7vh;
+  }
+  .overlap-text {
+    position: relative;
+  }
+  
+  .overlap-text a {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #003569;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Overpass Mono', monospace;
+    letter-spacing: -1px;
+  }
+  .btn {
+    width: 40vh;
+    height: 4vh;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    padding: 5px 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    bottom: 6vh;
+    right: 5vh;
+  }
+  
+  .sub-content {
+    width: 32vh;
+    height: 40%;
+    margin: 10px auto;
+    padding: 20px 50px;
+    background-color: #fff;
+  }
+  
+  .s-part {
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    position: relative;
+    top: 2vh;
+
+  }
+  hr{
+    position: relative;
+    top: 3vh;
+  }
+  .s-part a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3897f0;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-left: 5px;
+  }
+  .facbook a{
+    text-decoration: none;
+    color: rgb(49, 49, 142);
+    font-size: 14px;
+    position: relative;
+    top: 5vh;
+    left: 6vh;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+  }
+  .forgot a{
+    text-decoration: none;
+    position: relative;
+    top: 6vh;
+    left: 8vh;
+    font-size: 13px;
+  }
+
+    
+
+  }
