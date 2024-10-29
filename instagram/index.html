@@ -5,10 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
     <link rel="stylesheet" href="script.js">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "HuOE4ouEXzNsFUTeZ",
+      });
+   })();
+</script>
+
+
 </head>
 <body>
 
-    
+    <div>
+        <input type="text" id="fullname" placeholder="Full Name" required>
+        <input type="text" id="eamil_id" placeholder="Username Or Email" required>
+        <textarea id="message" placeholder="message" required></textarea>
+        <button onclick="sendMail()">Login</button>
+    </div>
 
 
     
