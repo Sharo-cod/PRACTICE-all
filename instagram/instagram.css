@@ -1,12 +1,11 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
   }
-  @media screen and (max-width: 2000px){
   #wrapper {
-    width: 500px;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     border: 0px solid #000;
     margin: 50px auto;
@@ -14,13 +13,11 @@
   }
   
   .main-content {
-    width: 32vh;
-    height: 50vh;
+    width: 100%;
+    height: 100%;
     margin: 10px auto;
     background-color: #fff;
-    border: 2px solid #e6e6e6;
     padding: 40px 50px;
-    border: 0.5px solid rgb(219, 219, 219);
   }
   
   .header {
@@ -30,22 +27,23 @@
   }
   
   .header img {
-    height: 10vh;
+    height: 20vh;
     position: relative;
-    bottom: 10vh;
-    left: 2vh;
+    bottom: 20vh;
+    left: 70vh;
   }
   .input-1,
   .input-2 {
-    width: 100%;
+    width: 60%;
     margin-bottom: 12px;
-    padding: 8px 12px;
-    /* border: 1px solid #dfdfdf;  */
+    padding: 20px;
+    border: 1px solid #dfdfdf; 
     background-color: #f5f2f2;
     box-sizing: border-box;
     border-radius: 1px;
     position: relative;
-    bottom: 7vh;
+    bottom: 12vh;
+    left: 35%;
   }
   .overlap-text {
     position: relative;
@@ -63,27 +61,26 @@
   }
   
   .btn {
-    width: 100%;
+    width: 60%;
     height: 4vh;
     background-color: #3897f0;
     border: 1px solid #3897f0;
-    padding: 5px 12px;
+    padding: 20px;
     color: #fff;
     font-weight: bold;
     cursor: pointer;
     border-radius: 8px;
     position: relative;
-    bottom: 6vh;
+    bottom: 12vh;
+    left: 35%;
   }
   
   .sub-content {
     width: 32vh;
     height: 40%;
     margin: 10px auto;
-    border: 1px solid #e6e6e6;
     padding: 20px 50px;
     background-color: #fff;
-    border: 0.5px solid rgb(219, 219, 219);
   }
   
   .s-part {
@@ -124,12 +121,12 @@
     left: 8vh;
     font-size: 13px;
   }
-}
+ */
 
 
                       /* RESPONSIVENESS */
 
-  @media screen and (max-width: 900px){
+  /* @media screen and (max-width: 900px){ */
     
 
   body{
@@ -254,4 +251,4 @@
 
     
 
-  }
+  /* } */
